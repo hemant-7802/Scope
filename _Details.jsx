@@ -12,15 +12,20 @@ export const menuItems = [
     {
         id: '2',
         name: 'About',
-        href: '#home'
+        href: '#about'
     },
     {
         id: '3',
-        name: 'Contact Us',
-        href: '#home'
+        name: 'Blogs',
+        href: '#blogs'
     },
     {
         id: '4',
+        name: 'Contact Us',
+        href: '#contact'
+    },
+    {
+        id: '5',
         name: 'Login',
         href: ''
     },
@@ -157,5 +162,38 @@ export const studentsName = [
         image_url: "https://i.postimg.cc/YCVMz8hw/priyanshi.png",
         linkedinId: "https://www.linkedin.com",
         githubId: "https://github.com/",
+    },
+]
+
+export const courses = [
+    {
+        id: '0',
+        courseVideo: '',
+        courseName: 'Full Stack Development',
+        courseDetails: '',
+    },
+    {
+        id: '1',
+        courseVideo: '',
+        courseName: 'Digital Marketing',
+        courseDetails: '',
+    },
+    {
+        id: '2',
+        courseVideo: '',
+        courseName: 'Graphics Designing',
+        courseDetails: '',
+    },
+    {
+        id: '3',
+        courseVideo: '',
+        courseName: 'BCA',
+        courseDetails: '',
+    },
+    {
+        id: '4',
+        courseVideo: '',
+        courseName: 'AI Development',
+        courseDetails: '',
     },
 ]
