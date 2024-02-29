@@ -7,6 +7,7 @@ import img from "../../assets/scope_logo.png"
 export default function SignUp() {
     const [name, setName] = React.useState('')
     const [email, setEmail] = React.useState('');
+    const [number, setnumber] = React.useState('');
     const [pass, setPass] = React.useState('')
     const [cnfPass, setCnfPass] = React.useState('')
     const [passVisible, setPassVisible] = React.useState(false);
@@ -33,6 +34,17 @@ export default function SignUp() {
                     isClearable
                     value={name}
                     onValueChange={setName}
+                    variant='underlined'
+                />
+                <Input
+                    size='md'
+                    type="number"
+                    label="Mobile Number"
+                    isClearable
+                    value={number}
+                    onValueChange={setnumber}
+                    variant='underlined'
+                    className='w-[50%]'
                 />
                 <Input
                     size='md'
@@ -44,6 +56,7 @@ export default function SignUp() {
                     color={isInvalid ? "danger" : ""}
                     errorMessage={isInvalid && "Please enter a valid email"}
                     onValueChange={setEmail}
+                    variant='underlined'
                 />
                 <Input
                     size='md'
@@ -51,6 +64,7 @@ export default function SignUp() {
                     type={passVisible ? "text" : "password"}
                     label="Password"
                     onValueChange={setPass}
+                    variant='underlined'
                     endContent={
                         <button className="focus:outline-none" type="button" onClick={passVisibility}>
                             {passVisible ? (
@@ -67,6 +81,7 @@ export default function SignUp() {
                     type={cnfPassVisible ? "text" : "password"}
                     label="Confirm Password"
                     onValueChange={setCnfPass}
+                    variant='underlined'
                     endContent={
                         <button className="focus:outline-none" type="button" onClick={cnfPassVisibility}>
                             {cnfPassVisible ? (
@@ -77,7 +92,7 @@ export default function SignUp() {
                         </button>
                     }
                 />
-                <Button color='primary' className='w-full'>Register</Button>
+                <Button color='primary' className='w-full' type='submit'>Register</Button>
             </form>
         </>
     )

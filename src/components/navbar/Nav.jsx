@@ -1,8 +1,9 @@
 import React from "react";
 import { Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent, NavbarItem, Link, Button } from "@nextui-org/react";
 import { menuItems } from "../../../_Details.jsx";
-import logo from "../../assets/logo2.png"
 import Login from "../login/Login.jsx";
+
+import logo from "../../assets/logo.png"
 
 export default function Nav() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -18,8 +19,8 @@ export default function Nav() {
             </NavbarContent>
 
             <NavbarContent className="sm:hidden" justify="center">
-                <NavbarBrand>
-                    <img src={logo} alt="" width={80} />
+                <NavbarBrand className="self-center absolute top-2">
+                    <img src={logo} alt="" width={60} />
                     {/* <p className="font-bold text-inherit">Scope Tech</p> */}
                 </NavbarBrand>
             </NavbarContent>
