@@ -16,9 +16,9 @@ export default function Footer() {
                 />
                 <div className="pt-4 xl:grid xl:grid-cols-3 xl:gap-8">
                     <div className="">
-                        <p className="text-sm mt-2 text-gray-300">
+                        {/* <p className="text-sm mt-2 text-gray-300">
                             Making the world a better place through constructing elegant hierarchies.
-                        </p>
+                        </p> */}
                         <dl className="mt-6 space-y-1 text-base leading-7 text-gray-300">
                             <div className="flex gap-x-4">
                                 <dt className="flex-none">
