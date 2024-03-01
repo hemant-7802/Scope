@@ -1,207 +1,70 @@
-import img1 from "./src/assets/full_stack_dev.jpg"
-import img2 from "./src/assets/dm.jpg"
-import img3 from "./src/assets/graphics.jpg"
-import img4 from "./src/assets/full_stack_dev.jpg"
-import img5 from "./src/assets/full_stack_dev.jpg"
+import { InboxIcon, TrashIcon, UsersIcon } from '@heroicons/react/24/outline'
 
-export const menuItems = [
+export const homeNavigation = [
+    { name: 'Product', href: '#' },
+    { name: 'Features', href: '#' },
+    { name: 'Programs & Courses', href: 'https://www.scopeschooling.in/courses' },
+    { name: 'Gallery', href: '#' },
+]
+
+export const features = [
     {
-        id: '0',
-        name: 'Home',
-        href: '#home'
+        name: 'Unlimited inboxes',
+        description:
+            'Non quo aperiam repellendus quas est est. Eos aut dolore aut ut sit nesciunt. Ex tempora quia. Sit nobis consequatur dolores incidunt.',
+        href: '#',
+        icon: InboxIcon,
     },
     {
-        id: '1',
-        name: 'Courses',
-        href: '#courses'
+        name: 'Manage team members',
+        description:
+            'Vero eum voluptatem aliquid nostrum voluptatem. Vitae esse natus. Earum nihil deserunt eos quasi cupiditate. A inventore et molestiae natus.',
+        href: '#',
+        icon: UsersIcon,
     },
     {
-        id: '2',
-        name: 'About',
-        href: '#about'
-    },
-    {
-        id: '3',
-        name: 'Blogs',
-        href: '#blogs'
-    },
-    {
-        id: '4',
-        name: 'Contact Us',
-        href: '#contact'
-    },
-    {
-        id: '5',
-        name: 'Login',
-        href: ''
+        name: 'Spam report',
+        description:
+            'Et quod quaerat dolorem quaerat architecto aliquam accusantium. Ex adipisci et doloremque autem quia quam. Quis eos molestiae at iure impedit.',
+        href: '#',
+        icon: TrashIcon,
     },
 ]
 
-export const studentsName = [
-    {
-        id: 1,
-        name: "Prashant Saraswat",
-        job_role: "Project Manager",
-        image_url: "https://i.postimg.cc/63jZxzxb/prashant.png",
-        linkedinId: "https://www.linkedin.com/in/prasant-sarswat-24b96b12b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        githubId: "https://github.com/21tushar",
-    },
-    {
-        id: 2,
-        name: "Shivam Sharma",
-        job_role: "Marketing Head",
-        image_url: "https://i.postimg.cc/4yHYkg5n/shivam.png",
-        linkedinId: "https://www.linkedin.com/in/shivam-sharma-375148283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        githubId: "https://github.com/shiva8769",
-    },
-    {
-        id: 3,
-        name: "Mohit Saraswat",
-        job_role: "Marketing Head (CRM)",
-        image_url: "https://i.postimg.cc/P52VcFJJ/IMG-20240220-110025-removebg-preview.png",
-        linkedinId: "https://www.linkedin.com/in/mohit-saraswat-60b1a1216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        githubId: "https://github.com/mohit-art11",
-    },
-    {
-        id: 4,
-        name: "Rudrani Pal",
-        job_role: "React Developer",
-        image_url: "",
-        linkedinId: "https://www.linkedin.com",
-        githubId: "https://github.com/RudraniJadaun",
-    },
-    {
-        id: 5,
-        name: "Farheen Khan",
-        job_role: "Front-end Developer",
-        image_url: "https://i.postimg.cc/2jKJ1V7K/farheen.png",
-        linkedinId: "https://www.linkedin.com",
-        githubId: "https://github.com/shoyebakhan",
-    },
-    {
-        id: 6,
-        name: "Kanishka Singhal",
-        job_role: "JS Developer",
-        image_url: "https://i.postimg.cc/yd4kFhhf/Whats-App-Image-2024-02-14-at-13-16-29-b17ebaf4-removebg-preview.png",
-        linkedinId: "https://www.linkedin.com",
-        githubId: "https://github.com/",
-    },
-    {
-        id: 7,
-        name: "Aayush Goyal",
-        job_role: "Front-end Developer",
-        image_url: "https://i.postimg.cc/jjSmSYmy/IMG-20240220-105822-removebg-preview-1.png",
-        linkedinId: "https://www.linkedin.com",
-        githubId: "https://github.com/gaayush234",
-    },
-    {
-        id: 8,
-        name: "Hemant Bhargav",
-        job_role: "Full Stack Developer",
-        image_url: "https://i.postimg.cc/WpGcxsfq/hemant.png",
-        linkedinId: "https://www.linkedin.com",
-        githubId: "https://github.com/hemant-7802",
-    },
-    {
-        id: 9,
-        name: "Karan Jadaun",
-        job_role: "MERN Stack Developer",
-        image_url: "https://i.postimg.cc/Z5Fm346h/i2-removebg.png",
-        linkedinId: "https://www.linkedin.com",
-        githubId: "https://github.com/karan0617",
-    },
-    {
-        id: 10,
-        name: "Salman Khan",
-        job_role: "Front-end Developer",
-        image_url: "https://i.postimg.cc/pTSW6sQQ/salmon.jpg",
-        linkedinId: "https://www.linkedin.com",
-        githubId: "https://github.com/",
-
-    },
-    {
-        id: 11,
-        name: "Syd Sufiyan Ali",
-        job_role: "Front-end Developer",
-        image_url: "https://i.postimg.cc/RhtpKTMV/sufiyan.jpg",
-        linkedinId: "https://www.linkedin.com",
-        githubId: "https://github.com/",
-    },
-    {
-        id: 12,
-        name: "Sambhav Goswami",
-        job_role: "Figma Designer",
-        image_url:
-            "https://i.postimg.cc/jSDwyLp5/Whats-App-Image-2024-02-20-at-11-20-21-626d6355-removebg-preview.png",
-        linkedinId: "https://www.linkedin.com",
-        githubId: "https://github.com/",
-    },
-    {
-        id: 13,
-        name: "Tanishk Jain",
-        job_role: "Front-end Developer",
-        image_url:
-            "https://i.postimg.cc/nLfryTW8/IMG-20240220-111228-removebg-preview.png",
-        linkedinId: "https://www.linkedin.com",
-        githubId: "https://github.com/tashujain",
-    },
-    {
-        id: 14,
-        name: "Abbas Khan",
-        job_role: "Template Designer",
-        image_url: "https://i.postimg.cc/1tVhfs66/Abbas-removebg.png",
-        linkedinId: "https://www.linkedin.com",
-        githubId: "https://github.com/",
-    },
-    {
-        id: 15,
-        name: "Arpit Jain",
-        job_role: "Front-end Developer",
-        image_url: "https://i.postimg.cc/50DM2qqt/IMG-20240221-003305-204-removebg-preview.png",
-        linkedinId: "https://www.linkedin.com/in/arpit-jain-6193792b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        githubId: "https://github.com/arpitjainkarauli",
-    },
-    {
-        id: 16,
-        name: "Priyanshi Choudhary",
-        job_role: "Front-end Developer",
-        image_url: "https://i.postimg.cc/YCVMz8hw/priyanshi.png",
-        linkedinId: "https://www.linkedin.com",
-        githubId: "https://github.com/",
-    },
+export const stats = [
+    { id: 1, name: 'Creators on the platform', value: '8,000+' },
+    { id: 2, name: 'Flat platform fee', value: '3%' },
+    { id: 3, name: 'Uptime guarantee', value: '99.9%' },
+    { id: 4, name: 'Paid out to creators', value: '$70M' },
 ]
 
-export const courses = [
+export const faqs = [
     {
-        id: 0,
-        courseImage: img1,
-        courseName: 'Full Stack Development',
-        courseDetails: "Scope Institute's Full Stack Development course provides comprehensive training in front-end and back-end web development. Students learn HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB, alongside Git version control and deployment strategies. Through hands-on projects, they gain practical experience and build a robust portfolio. Join us to master the skills needed to excel as a Full Stack Developer in today's dynamic tech industry.",
+        question: "What's the best thing about Switzerland?",
+        answer:
+            "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
     },
     {
-        id: 1,
-        courseImage: img2,
-        courseName: 'Digital Marketing',
-        courseDetails: "Explore digital marketing with SCOPE Institute's comprehensive course. From SEO to social media, email marketing, and PPC advertising, gain practical skills and theoretical knowledge through interactive learning. Led by industry experts, our hands-on approach ensures you're equipped to excel in today's competitive digital landscape. Unlock your potential with us.",
+        question: "What's the best thing about Switzerland?",
+        answer:
+            "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
     },
     {
-        id: 2,
-        courseImage: img3,
-        courseName: 'Graphics Designing',
-        courseDetails: "At SCOPE Institute, our Graphics Designing course provides students with essential skills and knowledge to excel in the field. Covering fundamentals such as design principles, software proficiency, typography, and image editing, students gain hands-on experience through practical projects and industry-relevant curriculum. Led by experienced instructors, this course equips students with the expertise needed to pursue rewarding careers in graphic design.",
+        question: "What's the best thing about Switzerland?",
+        answer:
+            "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
     },
     {
-        id: 3,
-        courseImage: img4,
-        courseName: 'BCA',
-        courseDetails: "At Scope Institute, our BCA course provides a rigorous curriculum integrating theoretical knowledge with practical application. Students delve into core subjects such as computer programming, database management, and software development. Through hands-on projects and industry-relevant training, they acquire valuable skills for careers in software engineering, IT consulting, and system analysis. Our BCA program emphasizes innovation and critical thinking, ensuring graduates are ready to excel in today's dynamic tech landscape.",
+        question: "What's the best thing about Switzerland?",
+        answer:
+            "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
     },
     {
-        id: 4,
-        courseImage: img5,
-        courseName: 'AI Development',
-        courseDetails: "Scope Institute presents an enriching AI course designed to equip students with cutting-edge skills in artificial intelligence. Our comprehensive curriculum covers fundamental concepts, machine learning algorithms, neural networks, and practical applications across various industries. Through hands-on projects and expert guidance, students will develop proficiency in AI programming,",
+        question: "What's the best thing about Switzerland?",
+        answer:
+            "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
     },
+    // More questions...
 ]
 
 export const navigation = {
@@ -244,6 +107,19 @@ export const navigation = {
             ),
         },
         {
+            name: 'Instagram',
+            href: 'https://instagram.com/scopetechacademy?igshid=OGQ5ZDc2ODk2ZA==',
+            icon: (props) => (
+                <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
+                    <path
+                        fillRule="evenodd"
+                        d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                        clipRule="evenodd"
+                    />
+                </svg>
+            ),
+        },
+        {
             name: 'Whatsapp',
             href: 'https://chat.whatsapp.com/HPScddoozjh4CXzGLwvI0o',
             icon: (props) => (
@@ -256,13 +132,14 @@ export const navigation = {
             ),
         },
         {
-            name: 'Instagram',
-            href: 'https://instagram.com/scopetechacademy?igshid=OGQ5ZDc2ODk2ZA==',
+            name: 'Playstore',
+            href: 'https://play.google.com/store/apps/details?id=com.scope1544.learners&pcampaignid=web_share',
             icon: (props) => (
-                <svg fill="currentColor" viewBox="0 0 40 45" {...props}>
+                <svg fill="currentColor" viewBox="0 0 30 26" {...props}>
                     <path
-                    fillRule="evenodd"
-                    d="M 16.5 5 C 10.16639 5 5 10.16639 5 16.5 L 5 31.5 C 5 37.832757 10.166209 43 16.5 43 L 31.5 43 C 37.832938 43 43 37.832938 43 31.5 L 43 16.5 C 43 10.166209 37.832757 5 31.5 5 L 16.5 5 z M 16.5 8 L 31.5 8 C 36.211243 8 40 11.787791 40 16.5 L 40 31.5 C 40 36.211062 36.211062 40 31.5 40 L 16.5 40 C 11.787791 40 8 36.211243 8 31.5 L 8 16.5 C 8 11.78761 11.78761 8 16.5 8 z M 34 12 C 32.895 12 32 12.895 32 14 C 32 15.105 32.895 16 34 16 C 35.105 16 36 15.105 36 14 C 36 12.895 35.105 12 34 12 z M 24 14 C 18.495178 14 14 18.495178 14 24 C 14 29.504822 18.495178 34 24 34 C 29.504822 34 34 29.504822 34 24 C 34 18.495178 29.504822 14 24 14 z M 24 17 C 27.883178 17 31 20.116822 31 24 C 31 27.883178 27.883178 31 24 31 C 20.116822 31 17 27.883178 17 24 C 17 20.116822 20.116822 17 24 17 z" clipRule="evenodd"/>
+                        fillRule="evenodd"
+                        d="M 7.6230469 3.2109375 L 18 13.585938 L 20.677734 10.908203 C 17.018734 8.6882031 12.118063 5.7100938 9.9140625 4.3710938 L 8.4375 3.4765625 C 8.1765 3.3175625 7.8970469 3.2319375 7.6230469 3.2109375 z M 6.0390625 4.453125 C 6.0180625 4.567125 6 4.6816875 6 4.8046875 L 6 25.308594 C 6 25.394594 6.0172969 25.474641 6.0292969 25.556641 L 16.585938 15 L 6.0390625 4.453125 z M 22.4375 11.976562 L 19.414062 15 L 22.384766 17.970703 C 23.958766 17.016703 25.048922 16.35425 25.169922 16.28125 C 25.704922 15.95425 26.007047 15.460875 25.998047 14.921875 C 25.990047 14.392875 25.687828 13.919906 25.173828 13.628906 C 25.058828 13.562906 23.9835 12.913563 22.4375 11.976562 z M 18 16.414062 L 7.6542969 26.759766 C 7.8552969 26.724766 8.0560469 26.664828 8.2480469 26.548828 C 8.5140469 26.386828 15.7 22.027062 20.625 19.039062 L 18 16.414062 z"
+                        clipRule="evenodd" />
                 </svg>
             ),
         },
@@ -279,18 +156,5 @@ export const navigation = {
                 </svg>
             ),
         },
-        {
-            name: 'Playstore',
-            href: 'https://play.google.com/store/apps/details?id=com.scope1544.learners&pcampaignid=web_share',
-            icon: (props) => (
-                <svg fill="currentColor" viewBox="0 0 30 26" {...props}>
-                    <path 
-                    fillRule="evenodd"
-                    d="M 7.6230469 3.2109375 L 18 13.585938 L 20.677734 10.908203 C 17.018734 8.6882031 12.118063 5.7100938 9.9140625 4.3710938 L 8.4375 3.4765625 C 8.1765 3.3175625 7.8970469 3.2319375 7.6230469 3.2109375 z M 6.0390625 4.453125 C 6.0180625 4.567125 6 4.6816875 6 4.8046875 L 6 25.308594 C 6 25.394594 6.0172969 25.474641 6.0292969 25.556641 L 16.585938 15 L 6.0390625 4.453125 z M 22.4375 11.976562 L 19.414062 15 L 22.384766 17.970703 C 23.958766 17.016703 25.048922 16.35425 25.169922 16.28125 C 25.704922 15.95425 26.007047 15.460875 25.998047 14.921875 C 25.990047 14.392875 25.687828 13.919906 25.173828 13.628906 C 25.058828 13.562906 23.9835 12.913563 22.4375 11.976562 z M 18 16.414062 L 7.6542969 26.759766 C 7.8552969 26.724766 8.0560469 26.664828 8.2480469 26.548828 C 8.5140469 26.386828 15.7 22.027062 20.625 19.039062 L 18 16.414062 z"
-                    clipRule="evenodd" />
-                </svg>
-            ),
-        },
     ],
 }
-

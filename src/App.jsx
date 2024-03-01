@@ -2,21 +2,25 @@
 import React from 'react'
 
 // import Components
-import Nav from './components/navbar/Nav'
-import Heropage from './components/heropage/Heropage'
-import Courses from './components/courses/Courses'
-import Students from './components/learners/Students'
-import Registeration from './components/registerationPage/Registeration'
-import Footer from './components/footer/Footer'
+import Footer from './components/Footer'
+import Hero from './components/Hero'
+import Features from './components/Features'
+import Testimonial from './components/Testimonial'
+import FAQ from './components/FAQ'
+import CenteredCard from './components/CenteredCars'
+import Stats from './components/Stats'
+import Contact from './components/Contact'
 
 export default function App() {
   return (
     <>
-      <Nav/>
-      <Heropage/>
-      <Courses/>
-      <Students/>
-      <Registeration/>
+      <Hero />
+      <Features />
+      <CenteredCard />
+      <Testimonial />
+      <Stats />
+      <Contact />
+      <FAQ />
       <Footer />
     </>
   )
